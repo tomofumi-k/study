@@ -1,0 +1,158 @@
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: rgb(33, 35, 57);
+  /* 以下のコードを追加 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 50vh auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1s infinite ease-in-out;
+}
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 64px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  background: transparent;
+  padding: 0px 64px;
+  z-index: 8888;
+
+  transition: 0.4s;
+  .top-link {
+    color: gray;
+    opacity: 0.6;
+    transition: 0.4s;
+    &:hover {
+      color: white;
+      opacity: 1;
+    }
+  }
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  .swiper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-wrapper {
+    transition-timing-function: ease-in;
+  }
+  @mixin box-base($img-source: 1) {
+    background-image: url(/assete/bg#{$img-source}.jpeg);
+    filter: brightness(50%);
+    object-fit: contain;
+    width: 100%;
+  }
+  .box1 {
+    @include box-base();
+  }
+  .box2 {
+    @include box-base(2);
+  }
+  .box3 {
+    @include box-base(3);
+  }
+  .box4 {
+    @include box-base(4);
+  }
+  .box5 {
+    @include box-base(5);
+  }
+  .under-txt {
+    position: absolute;
+    z-index: 2;
+    font-size: 120px;
+    margin: 160px auto auto 80px;
+    .top-txt {
+      opacity: 0;
+    }
+    .text-block {
+      display: block;
+      font-size: 16px;
+      line-height: 42px;
+      margin-top: 48px;
+      opacity: 0;
+      .new-line {
+        display: block;
+      }
+    }
+  }
+}
+
+@mixin section-kit($state, $txt-direction, $img-source, $margin-direction) {
+  .#{$state}-section {
+    position: relative;
+    text-align: $txt-direction;
+    width: 100vw;
+    height: 100vh;
+  }
+  .#{$state}-bg {
+    position: absolute;
+    background-image: url(/assete/section-bg#{$img-source}.jpeg);
+    filter: brightness(30%);
+    object-fit: contain;
+    height: 100vh;
+    width: 100vw;
+  }
+  .#{$state}-txt {
+    font-size: 120px;
+    padding-top: 160px;
+    margin-#{$margin-direction}: 80px;
+    opacity: 0;
+  }
+  .#{$state}-text-block {
+    opacity: 0;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 42px;
+    margin-#{$margin-direction}: 80px;
+    margin-top: 48px;
+  }
+  .new-line {
+    display: inline-block;
+  }
+}
+
+// about
+@include section-kit(prologue, end, 1, right);
+// available
+@include section-kit(about, start, 2, left);
+// epilogue
+@include section-kit(epilogue, end, 3, right);
+// slider
+@include section-kit(slider, start, 4, left);

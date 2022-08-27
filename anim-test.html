@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>anim-test</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <div id="loading">
+      <div class="spinner"></div>
+    </div>
+
+    <nav class="navbar" id="nav">
+      <a href="#episode" class="top-link">episode</a>
+      <a href="#prologue" class="top-link">prologue</a>
+      <a href="#about" class="top-link">about</a>
+      <a href="#epilogue" class="top-link">epilogue</a>
+    </nav>
+
+    <section class="hero" id="episode">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box1"></div>
+          <div class="swiper-slide box2"></div>
+          <div class="swiper-slide box3"></div>
+          <div class="swiper-slide box4"></div>
+          <div class="swiper-slide box5"></div>
+        </div>
+      </div>
+      <div class="under-txt">
+        <h1 class="top-txt">episode</h1>
+        <p class="text-block">
+          Lorem ipsum is placeholder text commonly
+          <span class="new-line">used in the graphic,</span>
+          <span class="new-line">print, and publishing industries for</span>
+          <span class="new-line">previewing layouts and visual mockups.</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="prologue-section" id="prologue">
+      <div class="prologue-bg"></div>
+      <h2 class="prologue-txt">prologue</h2>
+      <p class="prologue-text-block">
+        Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.
+        <span class="new-line">It is intended to be used in mobile websites, mobile web apps,and mobile native/hybrid apps.</span>
+        <span class="new-line">Swiper is not compatible with all platforms, it is a modern touch slider which is focused only on modern</span>
+        <span class="new-line">apps/platforms to bring the best experience and simplicity.</span>
+        <span class="new-line">Swiper, along with other great components, is a part of Framework7 - afully-featured framework for building iOS & </span>
+        <span class="new-line">Android apps. Swiper is also a default slider component in the Ionic Framework.</span>
+      </p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-bg"></div>
+      <h2 class="about-txt">about</h2>
+      <p class="about-text-block">
+        Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.
+        <span class="new-line">It is intended to be used in mobile websites, mobile web apps,and mobile native/hybrid apps.</span>
+        <span class="new-line">Swiper is not compatible with all platforms, it is a modern touch slider which is focused only on modern</span>
+        <span class="new-line">apps/platforms to bring the best experience and simplicity.</span>
+        <span class="new-line">Swiper, along with other great components, is a part of Framework7 - afully-featured framework for building iOS & </span>
+        <span class="new-line">Android apps. Swiper is also a default slider component in the Ionic Framework.</span>
+      </p>
+    </section>
+
+    <section class="epilogue-section" id="epilogue">
+      <div class="epilogue-bg"></div>
+      <h2 class="epilogue-txt">epilogue</h2>
+      <p class="epilogue-text-block">
+        Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.
+        <span class="new-line">It is intended to be used in mobile websites, mobile web apps,and mobile native/hybrid apps.</span>
+        <span class="new-line">Swiper is not compatible with all platforms, it is a modern touch slider which is focused only on modern</span>
+        <span class="new-line">apps/platforms to bring the best experience and simplicity.</span>
+        <span class="new-line">Swiper, along with other great components, is a part of Framework7 - afully-featured framework for building iOS & </span>
+        <span class="new-line">Android apps. Swiper is also a default slider component in the Ionic Framework.</span>
+      </p>
+    </section>
+
+    <script src="js/loading.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/navColorChange.js"></script>
+    <script src="js/slick.js"></script>
+  </body>
+</html>
