@@ -601,7 +601,7 @@ template {
 
 .prologue-bg {
   position: absolute;
-  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg1.jpeg?raw=true);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/section-bg1.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
@@ -638,7 +638,7 @@ template {
 
 .about-bg {
   position: absolute;
-  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg2.jpeg?raw=true);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/section-bg2.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
@@ -675,7 +675,7 @@ template {
 
 .epilogue-bg {
   position: absolute;
-  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg3.jpeg?raw=true);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/section-bg3.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
@@ -712,7 +712,7 @@ template {
 
 .slider-bg {
   position: absolute;
-  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg4.jpeg?raw=true);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/section-bg4.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
