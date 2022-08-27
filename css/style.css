@@ -538,35 +538,35 @@ template {
   transition-timing-function: ease-in;
 }
 .hero .box1 {
-  background-image: url(../assete/bg1.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg1.jpeg?raw=true);
   filter: brightness(50%);
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
 }
 .hero .box2 {
-  background-image: url(../assete/bg2.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg2.jpeg?raw=true);
   filter: brightness(50%);
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
 }
 .hero .box3 {
-  background-image: url(../assete/bg3.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg3.jpeg?raw=true);
   filter: brightness(50%);
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
 }
 .hero .box4 {
-  background-image: url(../assete/bg4.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg4.jpeg?raw=true);
   filter: brightness(50%);
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
 }
 .hero .box5 {
-  background-image: url(../assete/bg5.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg5.jpeg?raw=true);
   filter: brightness(50%);
   -o-object-fit: contain;
      object-fit: contain;
@@ -601,7 +601,7 @@ template {
 
 .prologue-bg {
   position: absolute;
-  background-image: url(../assete/section-bg1.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg1.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
@@ -638,7 +638,7 @@ template {
 
 .about-bg {
   position: absolute;
-  background-image: url(../assete/section-bg2.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg2.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
@@ -675,7 +675,7 @@ template {
 
 .epilogue-bg {
   position: absolute;
-  background-image: url(../assete/section-bg3.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg3.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
@@ -712,7 +712,7 @@ template {
 
 .slider-bg {
   position: absolute;
-  background-image: url(../assete/section-bg4.jpeg);
+  background-image: url(https://github.com/tomofumi-k/study/blob/main/assete/bg4.jpeg?raw=true);
   filter: brightness(30%);
   -o-object-fit: contain;
      object-fit: contain;
